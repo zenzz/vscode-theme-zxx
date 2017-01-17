@@ -1,7 +1,7 @@
 {
     "name": "theme-zxx",
-    "displayName": "zxx.light",
-    "description": "light theme",
+    "displayName": "zxx light theme",
+    "description": "a simple light theme",
     "version": "0.0.1",
     "publisher": "zenzz",
     "engines": {
