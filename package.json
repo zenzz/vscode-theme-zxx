@@ -1,0 +1,22 @@
+{
+    "name": "theme-zxx",
+    "displayName": "zxx.light",
+    "description": "light theme",
+    "version": "0.0.1",
+    "publisher": "zenzz",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "zxx light",
+                "uiTheme": "vs",
+                "path": "./themes/zxx.light.tmTheme"
+            }
+        ]
+    }
+}
