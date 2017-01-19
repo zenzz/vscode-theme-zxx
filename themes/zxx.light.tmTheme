@@ -12,12 +12,8 @@
 			<dict>
 				<key>background</key>
 				<string>#F6F6F6</string>
-				<!--<key>caret</key>
-				<string>#555</string>-->
 				<key>foreground</key>
 				<string>#323538</string>
-				<!--<key>invisibles</key>
-				<string>#000</string>-->
 				<key>lineHighlight</key>
 				<string>#CBDBE588</string>
 				<key>selection</key>
@@ -39,7 +35,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string, meta.preprocessor.c.include string.quoted.double.include.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -98,11 +94,33 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, variable.language.special.self.python </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1F8DFF</string>
+				<string>#B842B4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword JSON CSS</string>
+			<key>scope</key>
+			<string>support.type.json, support.class.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#004DD1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2485FA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,6 +143,8 @@
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
+				<!--<key>fontStyle</key>
+				<string>italic</string>-->
 				<key>foreground</key>
 				<string>#0000D1</string>
 			</dict>
@@ -137,7 +157,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B435F0</string>
+				<string>#5E3670</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -163,7 +183,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#008C13</string>
+				<string>#23992F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -202,7 +222,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#449DC7BE</string>
+				<string>#449DC7BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -215,7 +235,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#990898</string>
+				<string>#6F41A7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -228,7 +248,7 @@
 				<key>fontStyle</key>
 				<string> bold</string>
 				<key>foreground</key>
-				<string>#5F0D46</string>
+				<string>#ED5A7F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -239,7 +259,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00858C</string>
+				<string>#BD529B</string>
 				<key>fontStyle</key>
 				<string> italic  bold</string>
 			</dict>
@@ -248,7 +268,7 @@
 			<key>name</key>
 			<string>Library variable</string>
 			<key>scope</key>
-			<string>support.other.variable</string>
+			<string>support.other.variable, variable.language.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -262,10 +282,8 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#449DC7</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#FFE270</string>
 			</dict>
 		</dict>
 		<dict>
@@ -275,10 +293,8 @@
 			<string>invalid.deprecated</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#AE81FF</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#FFE270</string>
 			</dict>
 		</dict>
 		<dict>
@@ -294,6 +310,39 @@
 				<string>underline</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Macro</string>
+			<key>scope</key>
+			<string>meta.preprocessor, meta.section,keyword.control.import.pragma.c</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#77492D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Imported Package</string>
+			<key>scope</key>
+			<string>meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.import, entity.name.type.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A60C00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function call</string>
+			<key>scope</key>
+			<string>meta.function.c meta.block.c meta.function-call.c support.function.any-method.c,meta.function-call.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#508187</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>72bddc80-ae60-4dc4-9d8f-45d2b589b6a3</string>
@@ -302,6 +351,6 @@
 	<key>semanticClass</key>
 	<string>zxx.light</string>
 	<key>author</key>
-	<string>zenzz (https://github.com/zenzz)</string>
+	<string>zenzz</string>
 </dict>
 </plist>
