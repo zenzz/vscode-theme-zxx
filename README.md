@@ -8,9 +8,14 @@ a simple light theme.
 ## ScreenShot
 
 
-
+C++:
 ![preview_cpp](preview_cpp.png)
 
+Javascript:
 ![preview_js](preview_js.png)
+
+Python:
+![preview_python](preview_python.png)
+
 
 **Enjoy!**
