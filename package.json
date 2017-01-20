@@ -2,7 +2,7 @@
     "name": "theme-zxx",
     "displayName": "zxx light theme",
     "description": "a simple light theme",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "zenzz",
     "engines": {
         "vscode": "^1.5.0"
