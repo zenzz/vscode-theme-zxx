@@ -1,0 +1,25 @@
+{
+    "name": "Zxx",
+    "author": "zenzz",
+    "maintainers": [
+        "zenzz<zenzzy@outlook.com>"
+    ],
+    "semanticClass": "theme.zxx",
+    "colors": {
+        "editor.background": "#FDF8EA",
+        "editor.foreground": "#111111",
+        "editor.lineHighlightBackground": "#d2dde488",
+        "editor.selectionBackground": "#E0E5DF",
+        "editor.findMatchHighlightBackground": "#AED7FDD4",
+        "activityBarBadge.background": "#488dbb",
+
+        "list.activeSelectionBackground": "#b6d4e788",
+        "list.activeSelectionForeground": "#111111",
+        "activityBar.background": "#e5e5e5",
+        "activityBar.foreground": "#000000",
+        "activityBar.inactiveForeground": "#535353aa",
+        "statusBar.background": "#f0f0f0",
+        "statusBar.foreground": "#111111"
+    },
+    "tokenColors": "./zxx.tmTheme"
+}

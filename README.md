@@ -7,15 +7,8 @@ a simple light theme.
 
 ## ScreenShot
 
+![preview_cpp](ScreenShot.png)
 
-C++:
-![preview_cpp](preview_cpp.png)
-
-Javascript:
-![preview_js](preview_js.png)
-
-Python:
-![preview_python](preview_python.png)
 
 
 **Enjoy!**
