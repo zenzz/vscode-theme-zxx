@@ -19,6 +19,8 @@
         "activityBar.foreground": "#000000",
         "activityBar.inactiveForeground": "#535353aa",
         "statusBar.background": "#f0f0f0",
+        "statusBar.noFolderBackground": "#79379c",
+        "statusBar.noFolderForeground": "#ffffff",
         "statusBar.foreground": "#111111"
     },
     "tokenColors": "./zxx.tmTheme"
